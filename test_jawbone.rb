@@ -13,9 +13,13 @@ info, meta = client.user_info
 pp info
 pp meta
 
-info, meta = client.sleeps({})
+info, meta = client.sleeps(start_time: (Time.now - 7.days), end_time: Time.now)
 pp info.items
 pp meta
+
+# info, meta = client.create_body_measurement(weight: 190)
+# pp info
+# pp meta 
 
 # info, meta = client.create_sleep({ time_created: Time.now - 18.hours, time_completed: Time.now - 10.hours})
 # pp info

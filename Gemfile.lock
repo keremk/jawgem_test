@@ -65,8 +65,6 @@ GEM
       diffy
       grit
       pry (>= 0.9.8)
-    pry-rails (0.3.2)
-      pry (>= 0.9.10)
     pry-remote (0.1.7)
       pry (~> 0.9)
       slop (~> 3.0)
@@ -91,6 +89,5 @@ DEPENDENCIES
   pry-byebug
   pry-doc
   pry-git
-  pry-rails
   pry-remote
   pry-stack_explorer
